@@ -1,7 +1,5 @@
 # lstm-dsynt
 
-# Dsynt-lstm
-
 #### Required software
 
  * A C++ compiler supporting the [C++11 language standard](https://en.wikipedia.org/wiki/C%2B%2B11)
