@@ -20,12 +20,12 @@
 
 First, run goldParser.py to produce the oracle file. Second run the parser with the following command:
 
-  *parser/lstm-parse -T SpanishTreebank/train-oracle.txt -D SpanishTreebank/development-oracle.txt --hidden_dim 100 --lstm_input_dim 100 --pretrained_dim 64 -w SpanishTreebank/vec.txt --rel_dim 20 --action_dim 20 -M -P -t
+       parser/lstm-parse -T SpanishTreebank/train-oracle.txt -D SpanishTreebank/development-oracle.txt --hidden_dim 100 --lstm_input_dim 100 --pretrained_dim 64 -w SpanishTreebank/vec.txt --rel_dim 20 --action_dim 20 -M -P -t
 
 
 #### Parsing
 
-  *parser/lstm-parse -T SpanishTreebank/train-oracle.txt -D SpanishTreebank/development-oracle.txt --hidden_dim 100 --lstm_input_dim 100 --pretrained_dim 64 -w SpanishTreebank/vec.txt --rel_dim 20 --action_dim 20 -M -P -m <parameters-file>
+    parser/lstm-parse -T SpanishTreebank/train-oracle.txt -D SpanishTreebank/development-oracle.txt --hidden_dim 100 --lstm_input_dim 100 --pretrained_dim 64 -w SpanishTreebank/vec.txt --rel_dim 20 --action_dim 20 -M -P -m <parameters-file>
 
 
 #### License
