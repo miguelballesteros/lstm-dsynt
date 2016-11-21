@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -std=c++11 -O3 -g    CMakeFiles/lstm-parse.dir/lstm-parse.cc.o  -o lstm-parse -rdynamic ../cnn/cnn/libcnn.a /opt/tools/boost_1_55_0/lib/libboost_program_options.so.1.55.0 /opt/tools/boost_1_55_0/lib/libboost_serialization.so.1.55.0 
